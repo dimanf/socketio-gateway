@@ -1,0 +1,25 @@
+{
+  "name": "socketio-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node src/server.js",
+    "serverDebug": "DEBUG=* node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.5.7",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6"
+  }
+}
